@@ -1,0 +1,33 @@
+     PROJECT README
+
+  Project Title
+SQL Business Analysis — Orders Data Project
+  
+  Overview
+This project analyzes an e-commerce orders dataset using SQL. The goal is to simulate real business analytics tasks performed by data analysts and BI professionals.
+The project covers:
+Data cleaning,Date analysis,Window functions,Subqueries,
+CTE,Views,Business KPIs and Dataset
+
+  Table: orders_manual
+Contains:
+Customer details
+Product info
+Sales amount
+Discounts
+Order & shipping dates
+Payment methods
+
+    Objectives
+Clean messy customer data
+Analyze sales trends
+Measure delivery performance
+Identify high-value customers
+Perform advanced SQL analytics
+
+   Skills Demonstrated
+PostgreSQL querying
+Analytical thinking
+BI-style problem solving
+Query optimization concepts
+Window function usage
