@@ -95,3 +95,36 @@ JOIN dim_date d
 --As we have showen here i  used  joins   to crate fact_sales     table
 
 
+
+
+
+/*lets create many tables to practice normalized data modeling*/
+
+DROP TABLE IF EXISTS orders;
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    customer_name TEXT,
+    order_date DATE
+);
+
+DROP TABLE IF EXISTS products;
+CREATE TABLE products (
+    product_id INT PRIMARY KEY,
+    product_name TEXT,
+    category TEXT,
+    amount NUMERIC(10,2)
+);
+
+
+DROP TABLE IF EXISTS order_items;
+CREATE TABLE order_items (
+    item_id SERIAL PRIMARY KEY,
+    order_id INT,
+    product_id INT,
+    quantity INT
+);
+
+/*so now we can practice normalized data modeling which is spliting data in to many tables to remove 
+  duplication(repetition)   usually used by back end software developrs,
+   in bank system,hospital system and ecomeerce check out systems*/
+
