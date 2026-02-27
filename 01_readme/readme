@@ -4,7 +4,7 @@
 SQL Business Analysis — Orders Data Project
   
   Overview
-This project analyzes an e-commerce orders dataset using SQL. The goal is to simulate real business analytics tasks performed by data analysts and BI professionals.
+This project  first seriously seeing the raw data then modeling the dat using star schema and  analyzes   an e-commerce orders dataset using SQL. The goal is to simulate real business analytics tasks performed by data analysts and BI professionals.
 The project covers:
  Data moodeling,data cleaning,Date analysis,Window functions,Subqueries,
 CTE,Views,Business KPIs and Dataset
